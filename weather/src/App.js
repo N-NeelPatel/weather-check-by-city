@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Icon } from "@iconify/react";
 import "./App.css";
@@ -17,6 +17,10 @@ const App = () => {
   const [weatherData, setWeatherData] = useState({});
   const [errorFlag, setErrorFlag] = useState(false);
   const [errorMessage] = useState("Please Enter a valid city name!");
+
+  useEffect(() => {
+    document.title = "Weather app";
+  }, []);
 
   const handleSubmit = async (e) => {
     setErrorFlag(false);
