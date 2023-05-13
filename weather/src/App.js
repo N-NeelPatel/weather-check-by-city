@@ -5,7 +5,7 @@ import "./App.css";
 
 const api_key = "cdf39c4f743e454f81644754231205";
 const weather_endpoint = "current.json";
-const BASE_URL_WEATHER = `http://api.weatherapi.com/v1/${weather_endpoint}?key=${api_key}&q=`;
+const BASE_URL_WEATHER = `https://api.weatherapi.com/v1/${weather_endpoint}?key=${api_key}&q=`;
 
 const formatTime = (epoch) => {
   const date = new Date(epoch * 1000);
