@@ -74,6 +74,7 @@ const App = () => {
     } catch (err) {
       console.error("Entered value is not a valid city name...");
       setErrorFlag(true);
+      setWeatherData({});
     }
 
     setCity("");
