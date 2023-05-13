@@ -2,8 +2,8 @@
   display: flex;
   margin-top: 50px;
 }
-.text-box {		
-  margin: 0 auto; 
+.text-box {
+  margin: 0 auto;
 }
 
 input {
@@ -19,8 +19,8 @@ button {
   padding: 16px;
   background-color: #fff;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
-  width: 500px;
-  margin: 0 auto; 
+  width: 600px;
+  margin: 0 auto;
   margin-top: 50px;
 }
 
@@ -79,17 +79,17 @@ button {
   color: #555;
   font-size: 16px;
   margin-bottom: 8px;
-margin-left: 4px;
-padding-bottom: 6px;
+  margin-left: 4px;
+  padding-bottom: 6px;
 }
 
 .info-parent {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .feels-like {
-margin-left: 4px;
+  margin-left: 4px;
 }
 
 .error-card {
@@ -97,9 +97,9 @@ margin-left: 4px;
   padding: 16px;
   background-color: #fde2e2;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-width: 500px;
-margin: 0 auto; 
-margin-top: 50px;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
 .error-message {
